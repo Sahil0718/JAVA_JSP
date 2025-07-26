@@ -4,14 +4,7 @@
 
 <web-app>
     <display-name>Archetype Created Web Application</display-name>
-
-    <servlet>
-        <servlet-name>loginmsg</servlet-name>
-        <servlet-class>servlets.loginmsg</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>loginmsg</servlet-name>
-        <url-pattern>/loginmsg</url-pattern>
-    </servlet-mapping>
+    <session-config>
+        <session-timeout>1</session-timeout>
+    </session-config>
 </web-app>

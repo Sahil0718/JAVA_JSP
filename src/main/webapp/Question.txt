@@ -1,0 +1,6 @@
+Create a login form in login.jsp, using Servlet authenticate (accept POST request) the username (as admin)
+and password (as nccs#123), forward to dashboard.jsp
+ if login is successful and include error message if login fails in same login.jsp.
+
+ Username: admin
+ Password: nccs#123
